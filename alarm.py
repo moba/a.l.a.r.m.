@@ -73,8 +73,6 @@ if __name__ == "__main__":
        print "Initializing Monitor " + name
        monitor.start()
 
-   print "bla"
-
    # DEBUG: ACTIVATE ALL MONITOR PLUGINS EVEN WITHOUT SCREENSAVER
    for monitor in monitors.values(): 
        monitor.activate()

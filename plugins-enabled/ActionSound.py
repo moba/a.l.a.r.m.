@@ -18,7 +18,6 @@ class ActionSound(IActionPlugin):
       self.wasMute = self.mixer.getmute()[0]
       self.isPlaying = False
       self.player = pyglet.media.Player()
-      self.player = pyglet.media.Player()
       self.player.eos_action = 'loop'
       source = pyglet.media.load(SOUNDFILE, streaming=False)
       self.player.queue(source)      
